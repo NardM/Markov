@@ -1,10 +1,10 @@
-﻿using Algoritm_Markova.algoritm;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +15,15 @@ namespace Algoritm_Markova
     {
         private string[] alphavit;
         private string[] words;
+        private bool successAlphavit = true;
+        private bool successWord = true;
+
+        private void Answer()
+        {
+            InputAccept();
+           // InputWordAccept();
+        }
+
 
         private void InputAccept()
         {
@@ -24,7 +33,8 @@ namespace Algoritm_Markova
             {
                 if (symbol.Length > 1)
                 {
-                    MessageBox.Show("Некорректный ввод");
+                    successAlphavit = false;
+                    MessageBox.Show("Некорректный ввод алфавита");
                     textBox2.Text = "";
                 }
             }
@@ -40,7 +50,8 @@ namespace Algoritm_Markova
                 {
                     if (!alphavit.Contains(word[i].ToString())) ;
                     {
-                        MessageBox.Show("Некорректный ввод");
+                        successWord = false;
+                        MessageBox.Show("Некорректный ввод слова");
                         textBox1.Text = "";
                     }
                 }
@@ -71,7 +82,17 @@ namespace Algoritm_Markova
 
         private void button4_Click(object sender, EventArgs e)
         {
-            GeneratorWordMarkov test = new GeneratorWordMarkov();
+            Answer();
+            if (!successAlphavit) return;
+            Random random = new Random();
+            var lenght = random.Next(1, 8);
+            var lengt_alphavit = alphavit.Length;
+            string word = "";
+            for (int i = 0; i < lenght; i++)
+            {
+                if (lengt_alphavit > 0) word += alphavit[random.Next(0, lengt_alphavit)];
+            }
+            textBox1.Text = word;
         }
     }
 }
