@@ -1,0 +1,9 @@
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\bin\Debug\Algoritm_Markova.exe.config
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\bin\Debug\Algoritm_Markova.exe
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\bin\Debug\Algoritm_Markova.pdb
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\obj\Debug\Algoritm_Markova.csprojResolveAssemblyReference.cache
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\obj\Debug\Algoritm_Markova.Form1.resources
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\obj\Debug\Algoritm_Markova.Properties.Resources.resources
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\obj\Debug\Algoritm_Markova.csproj.GenerateResource.Cache
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\obj\Debug\Algoritm_Markova.exe
+c:\users\diana\documents\visual studio 2015\Projects\Algoritm_Markova\Algoritm_Markova\obj\Debug\Algoritm_Markova.pdb
