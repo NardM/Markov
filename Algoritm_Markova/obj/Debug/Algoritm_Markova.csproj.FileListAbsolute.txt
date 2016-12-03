@@ -16,3 +16,12 @@ C:\Users\NardM\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.P
 C:\Users\NardM\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.csproj.GenerateResource.Cache
 C:\Users\NardM\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.exe
 C:\Users\NardM\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.pdb
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\bin\Debug\Algoritm_Markova.exe.config
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.exe
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.pdb
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\bin\Debug\Algoritm_Markova.exe
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\bin\Debug\Algoritm_Markova.pdb
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.csprojResolveAssemblyReference.cache
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.Form1.resources
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.Properties.Resources.resources
+C:\Users\User\Source\Repos\Markov\Algoritm_Markova\obj\Debug\Algoritm_Markova.csproj.GenerateResource.Cache

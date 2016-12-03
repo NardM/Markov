@@ -18,12 +18,16 @@ namespace Algoritm_Markova
         private bool successAlphavit = true;
         private bool successWord = true;
 
-        private void Answer()
+        private void Answer_generate()
         {
             InputAccept();
            // InputWordAccept();
         }
-
+        private void Answer()
+        {
+            InputAccept();
+            InputWordAccept();
+        }
 
         private void InputAccept()
         {
@@ -82,7 +86,7 @@ namespace Algoritm_Markova
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Answer();
+            Answer_generate();
             if (!successAlphavit) return;
             Random random = new Random();
             var lenght = random.Next(1, 8);
@@ -93,6 +97,12 @@ namespace Algoritm_Markova
                 if (lengt_alphavit > 0) word += alphavit[random.Next(0, lengt_alphavit)];
             }
             textBox1.Text = word;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Answer();
+
         }
     }
 }

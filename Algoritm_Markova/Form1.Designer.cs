@@ -99,6 +99,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Присоединить слово слева";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -186,7 +187,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Алгоритм Маркова";
             this.ResumeLayout(false);
             this.PerformLayout();
 
